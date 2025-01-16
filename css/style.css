@@ -29,3 +29,8 @@ ul {
     min-height: 100vh;
     background-color: #f1f5f9;
 }
+
+.sidebar {
+    width: 250px;
+    box-shadow: 0 0 10px #ddd;
+}
