@@ -34,3 +34,7 @@ ul {
     width: 250px;
     box-shadow: 0 0 10px #ddd;
 }
+
+.sidebar ul li a:hover, .sidebar ul li a.active {
+    background-color: #f6f6f6;
+}
