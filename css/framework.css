@@ -156,6 +156,12 @@
     text-align: center;
 }
 
+@media (max-width: 767px) {
+    .text-center-mobile {
+        text-align: center;
+    }
+}
+
 .text-left {
     text-align: left;
 }
@@ -180,6 +186,12 @@
 
 .d-block {
     display: block;
+}
+
+@media (max-width: 767px) {
+    .d-block-mobile {
+        display: block;
+    }
 }
 
 .d-inline {
@@ -404,11 +416,11 @@
 
 /* Border Radius */
 
-.rad-6{
+.rad-6 {
     border-radius: 6px;
 }
 
-.rad-10{
+.rad-10 {
     border-radius: 10px;
 }
 
@@ -423,8 +435,3 @@
 .w-full {
     width: 100%;
 }
-
-
-
-
-
