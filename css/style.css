@@ -140,18 +140,34 @@ ul {
     border-radius: 10px;
     margin-left: 5px;
     padding-left: 30px;
-    width: 160px;
+    width: 130px;
     transition: width 0.3s;
 }
 
 .header .search input::placeholder {
-    font-size: 14px;
     color: -var(--grey-color);
 }
 
 .header .search input:focus {
     width: 200px;
 }
+
+.header .search input:focus::placeholder {
+    color: transparent;
+}
+
+.header .user-info .user-img{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.header .user-info .user-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
 
 /* End Content */
 
