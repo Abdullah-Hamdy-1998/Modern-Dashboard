@@ -7,7 +7,7 @@
     --grey-color: #888;
 }
 
-/* Scrollbar */
+/* Start Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -26,6 +26,8 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+/* End Scrollbar */
 
 *:focus {
     outline: none;
@@ -50,6 +52,29 @@ ul {
 .page {
     min-height: 100vh;
     background-color: #f1f5f9;
+}
+
+.page h1 {
+    font-size: 32px;
+    margin: 20px 20px 40px;
+}
+
+.page h1::before, .page h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 3px;
+}
+
+.page h1::before {
+    width: 120px;
+    background-color: white;
+}
+
+.page h1::after {
+    width: 40px;
+    background-color: black;
 }
 
 /* Start Sidebar */
@@ -181,7 +206,7 @@ ul {
     border-radius: 50%;
 }
 
-.header .user-info .user-img{
+.header .user-info .user-img {
     width: 32px;
     height: 32px;
     margin-left: 20px;
@@ -192,27 +217,8 @@ ul {
     border-radius: 50%;
 }
 
-.page h1 {
-    font-size: 32px;
-    margin: 20px 20px 40px;
-}
-
-.page h1::before, .page h1::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    height: 3px;
-}
-
-.page h1::before {
-    width: 120px;
-    background-color: white;
-}
-
-.page h1::after {
-    width: 40px;
-    background-color: black;
+.wrapper{
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
 }
 
 /* End Content */
