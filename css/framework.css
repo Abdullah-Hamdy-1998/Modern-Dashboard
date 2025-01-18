@@ -1,3 +1,11 @@
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
 
 /* Padding and Margin */
 
@@ -39,6 +47,26 @@
 
 .pl-10 {
     padding-left: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pr-15 {
+    padding-right: 15px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pl-15 {
+    padding-left: 15px;
 }
 
 .p-20 {
@@ -144,7 +172,7 @@
 
 /* Position */
 
-.position-relative {
+.p-relative {
     position: relative;
 }
 
