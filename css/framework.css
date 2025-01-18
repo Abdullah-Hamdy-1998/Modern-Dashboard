@@ -194,6 +194,10 @@
     display: flex;
 }
 
+.d-grid {
+    display: grid;
+}
+
 /* Flex Direction */
 
 .flex-row {
@@ -336,6 +340,16 @@
 
 .flex-1 {
     flex: 1;
+}
+
+/* Grid Gaps */
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-20 {
+    gap: 20px;
 }
 
 /* Font Size */
