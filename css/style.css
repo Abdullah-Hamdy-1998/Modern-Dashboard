@@ -283,3 +283,8 @@ ul {
     justify-content: space-between;
     align-items: center;
 }
+
+.btn {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
