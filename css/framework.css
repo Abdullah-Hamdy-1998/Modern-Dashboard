@@ -447,7 +447,11 @@
 }
 
 .color-grey {
-    color: #888;
+    color: -var(--grey-color);
+}
+
+.bg-eee {
+    background-color: #eee;
 }
 
 /* Width */
