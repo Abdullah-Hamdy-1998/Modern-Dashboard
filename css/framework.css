@@ -446,6 +446,10 @@
     color: #000;
 }
 
+.color-white {
+    color: #fff;
+}
+
 .color-grey {
     color: var(--grey-color);
 }
@@ -454,8 +458,16 @@
     background-color: #eee;
 }
 
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
 /* Width */
 
 .w-full {
     width: 100%;
+}
+
+.w-fit {
+    width: fit-content;
 }
