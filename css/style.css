@@ -227,11 +227,15 @@ ul {
     }
 }
 
+.welcome {
+    overflow: hidden;
+}
+
 .welcome>img {
     width: 64px;
     height: 64px;
     border-radius: 50%;
-    border: 2px solid #fff;
+    border: 3px solid #fff;
     box-shadow: 0 0 5px #ddd;
     margin-top: -32px;
     margin-left: 20px;
@@ -244,6 +248,15 @@ ul {
 .welcome .intro img {
     height: 90px;
     margin-top: 10px;
+}
+
+.welcome .body {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.welcome .body>div {
+    flex: 1;
 }
 
 /* End Content */
