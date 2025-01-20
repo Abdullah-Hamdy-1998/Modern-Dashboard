@@ -275,8 +275,14 @@ ul {
 }
 
 /* Start Quick Draft Widget */
+
+.quick-draft .body textarea {
+    height: 135px;
+    resize: none;
+}
+
 .quick-draft .body .save {
-    margin: 0 0 15px auto;
+    margin-left: auto;
     transition: 0.3s;
 }
 
