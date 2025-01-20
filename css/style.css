@@ -274,6 +274,18 @@ ul {
     background-color: var(--blue-alt-color);
 }
 
+/* Start Quick Draft Widget */
+.quick-draft .body .save {
+    margin: 0 0 15px auto;
+    transition: 0.3s;
+}
+
+.quick-draft .body .save:hover {
+    background-color: var(--blue-alt-color);
+}
+
+/* End Quick Draft Widget */
+
 /* End Content */
 
 /* Components */
