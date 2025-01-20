@@ -447,7 +447,7 @@
 }
 
 .color-grey {
-    color: -var(--grey-color);
+    color: var(--grey-color);
 }
 
 .bg-eee {
