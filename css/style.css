@@ -227,9 +227,23 @@ ul {
     }
 }
 
+.welcome>img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px #ddd;
+    margin-top: -32px;
+    margin-left: 20px;
+}
+
+.welcome .intro p {
+    margin-bottom: 40px;
+}
+
 .welcome .intro img {
-    width: 160px;
-    margin-bottom: -10px;
+    height: 90px;
+    margin-top: 10px;
 }
 
 /* End Content */
