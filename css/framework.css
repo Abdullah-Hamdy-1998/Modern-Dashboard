@@ -509,6 +509,22 @@
     background-color: var(--blue-color);
 }
 
+.bg-blue-alt {
+    background-color: var(--blue-alt-color);
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
+.bg-red {
+    background-color: var(--red-color);
+}
+
 /* Width */
 
 .w-full {
