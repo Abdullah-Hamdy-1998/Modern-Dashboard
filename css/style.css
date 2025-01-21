@@ -329,6 +329,10 @@ ul {
     background-color: rgb(34 197 94 / 20%);
 }
 
+.yearly-targets .target-info .progress .progress-bar {
+    height: 4px;
+}
+
 
 /* End Yearly Targets Widget  */
 
