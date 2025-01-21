@@ -485,6 +485,22 @@
     color: var(--grey-color);
 }
 
+.color-blue {
+    color: var(--blue-color);
+}
+
+.color-blue-alt {
+    color: var(--blue-alt-color);
+}
+
+.color-orange {
+    color: var(--orange-color);
+}
+
+.color-green {
+    color: var(--green-color);
+}
+
 .bg-eee {
     background-color: #eee;
 }
