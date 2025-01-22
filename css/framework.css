@@ -425,6 +425,22 @@
     font-size: 16px;
 }
 
+.font-18 {
+    font-size: 18px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
 /* Font Weight */
 
 .font-weight-normal {
