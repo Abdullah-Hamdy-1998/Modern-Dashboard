@@ -414,6 +414,13 @@ ul {
 }
 
 /* End Latest Tasks Widget  */
+/* Start Latest Uploads */
+.latest-uploads .upload:not(:last-of-type) {
+    border-bottom: 1px solid #ccc;
+}
+
+/* End Latest Uploads */
+
 
 /* End Content */
 
