@@ -392,6 +392,15 @@ ul {
     opacity: 0.3;
 }
 
+.latest-tasks .task i {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.latest-tasks .task:hover i {
+    color: var(--red-color);
+}
+
 /* End Latest Tasks Widget  */
 
 /* End Content */
