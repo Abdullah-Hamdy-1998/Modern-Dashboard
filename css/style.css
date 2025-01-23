@@ -377,6 +377,14 @@ ul {
 
 /* End Latest News Widget  */
 
+/* Start Latest Tasks Widget  */
+.latest-tasks .task:not(:last-of-type) {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+/* End Latest Tasks Widget  */
+
 /* End Content */
 
 /* Components */
