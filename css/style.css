@@ -320,7 +320,7 @@ ul {
 .yearly-targets .target-info .progress-bar span {
     position: absolute;
     bottom: -32px;
-    right: -16px;
+    right: -17px;
     color: white;
     padding: 2px 5px;
     border-radius: 6px;
@@ -333,7 +333,7 @@ ul {
     border-width: 5px;
     border-style: solid;
     position: absolute;
-    top: -10px;
+    top: -9px;
     left: 50%;
     transform: translateX(-50%);
 }
