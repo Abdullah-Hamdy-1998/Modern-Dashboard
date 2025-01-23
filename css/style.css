@@ -383,6 +383,15 @@ ul {
     border-bottom: 1px solid #eee;
 }
 
+.latest-tasks .task:first-of-type .task-info {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+.latest-tasks .done {
+    opacity: 0.3;
+}
+
 /* End Latest Tasks Widget  */
 
 /* End Content */
