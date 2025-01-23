@@ -403,6 +403,10 @@
     gap: 20px;
 }
 
+.gap-30 {
+    gap: 30px;
+}
+
 /* Font Size */
 
 .font-10 {
