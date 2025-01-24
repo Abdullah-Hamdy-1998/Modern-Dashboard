@@ -430,6 +430,12 @@ ul {
     opacity: 0.1;
 }
 
+@media (max-width: 767px) {
+    .project-progress img {
+        display: none;
+    }
+}
+
 .project-progress .progress-container::before {
     content: "";
     position: absolute;
