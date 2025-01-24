@@ -445,11 +445,15 @@ ul {
     height: 20px;
     display: block;
     border-radius: 50%;
-    background-color: var(--blue-color);
+    background-color: white;
     border: 2px solid white;
     outline: 2px solid var(--blue-color);
     margin-right: 15px;
     z-index: 1;
+}
+
+.project-progress .progress-container li.done::before {
+    background-color: var(--blue-color);
 }
 
 /* End Project Progress Widget */
