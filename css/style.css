@@ -421,6 +421,17 @@ ul {
 
 /* End Latest Uploads */
 
+/* Start Project Progress Widget */
+.project-progress img {
+    position: absolute;
+    max-width: 170px;
+    right: 0;
+    bottom: 10px;
+    opacity: 0.1;
+}
+
+/* End Project Progress Widget */
+
 
 /* End Content */
 
