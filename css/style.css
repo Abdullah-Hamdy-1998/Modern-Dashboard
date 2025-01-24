@@ -452,8 +452,12 @@ ul {
     z-index: 1;
 }
 
-.project-progress .progress-container li.done::before {
+.project-progress .progress-container .done::before {
     background-color: var(--blue-color);
+}
+
+.project-progress .progress-container .current::before {
+    animation: pulse 1s infinite alternate;
 }
 
 /* End Project Progress Widget */
@@ -473,3 +477,15 @@ ul {
     padding: 4px 10px;
     border-radius: 6px;
 }
+
+/* Start Animation */
+@keyframes pulse {
+    from {
+        background-color: var(--blue-color);
+    }
+
+    to {
+        background-color: #fff;
+    }
+}
+/* End Animation */
