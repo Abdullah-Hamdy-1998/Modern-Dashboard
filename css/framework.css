@@ -499,6 +499,10 @@
     border-radius: 10px;
 }
 
+.rad-half {
+    border-radius: 50%;
+}
+
 /* Colors */
 
 .color-black {
