@@ -424,8 +424,8 @@ ul {
 /* Start Project Progress Widget */
 .project-progress img {
     position: absolute;
-    max-width: 170px;
-    right: 0;
+    max-width: 150px;
+    right: 15px;
     bottom: 10px;
     opacity: 0.1;
 }
@@ -468,6 +468,14 @@ ul {
 
 /* End Project Progress Widget */
 
+/* Start Reminders Widget */
+.reminders .reminder .key {
+    width: 15px;
+    height: 15px;
+}
+
+/* End Reminders Widget */
+
 
 /* End Content */
 
@@ -494,4 +502,5 @@ ul {
         background-color: #fff;
     }
 }
+
 /* End Animation */
