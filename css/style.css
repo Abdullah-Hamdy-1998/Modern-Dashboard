@@ -474,6 +474,22 @@ ul {
     height: 15px;
 }
 
+.reminders .reminder .key.bg-blue+.reminder-info {
+    border-left: 2px solid var(--blue-color);
+}
+
+.reminders .reminder .key.bg-green+.reminder-info {
+    border-left: 2px solid var(--green-color);
+}
+
+.reminders .reminder .key.bg-orange+.reminder-info {
+    border-left: 2px solid var(--orange-color);
+}
+
+.reminders .reminder .key.bg-red+.reminder-info {
+    border-left: 2px solid var(--red-color);
+}
+
 /* End Reminders Widget */
 
 
