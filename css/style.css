@@ -584,6 +584,52 @@ ul {
 
 /* End Social Media Stats Widget */
 
+/* Start Projects table */
+
+.projects-table {
+    overflow-x: auto;
+}
+
+.projects-table table {
+    min-width: 1000px;
+    border-spacing: 0;
+}
+
+.projects-table thead td {
+    background-color: #eee;
+    font-weight: bold;
+}
+
+.projects-table td {
+    padding: 15px;
+    text-align: center;
+}
+
+.projects-table tbody tr:hover td {
+    background-color: #faf7f7;
+}
+
+.projects-table tbody td {
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+    transition: 0.3s;
+}
+
+.projects-table tbody td:last-child {
+    border-right: 1px solid #eee;
+}
+
+.projects-table tbody img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 2px;
+    background: #fff;
+    margin-left: -20px;
+}
+
+/* End Projects table */
+
 
 /* End Content */
 
