@@ -646,6 +646,53 @@ ul {
     border-radius: 6px;
 }
 
+.toggle-box {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+}
+
+.toggle-switch {
+    background-color: var(--blue-color);
+    width: 78px;
+    height: 32px;
+    background-color: #ccc;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.toggle-switch::before {
+    font-family: var(--fa-style-family-classic);
+    content: "\f00d";
+    font-weight: 900;
+    background-color: white;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    border-radius: 50%;
+    top: 4px;
+    left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    transition: 0.3s;
+}
+
+.toggle-box:checked+.toggle-switch {
+    background-color: var(--blue-color);
+}
+
+.toggle-box:checked+.toggle-switch::before {
+    content: "\f00c";
+    color: var(--blue-color);
+    left: 48px;
+}
+
+/* End Components */
+
 /* Start Animation */
 @keyframes pulse {
     from {
