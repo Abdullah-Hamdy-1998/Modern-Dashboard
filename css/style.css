@@ -534,6 +534,22 @@ ul {
     background-color: #0077b5;
 }
 
+.social-media-stats .stat-info .facebook+p {
+    color: #3b5998;
+}
+
+.social-media-stats .stat-info .twitter+p {
+    color: #1da1f2;
+}
+
+.social-media-stats .stat-info .instagram+p {
+    color: #405de6;
+}
+
+.social-media-stats .stat-info .linkedin+p {
+    color: #0077b5;
+}
+
 /* End Social Media Stats Widget */
 
 
