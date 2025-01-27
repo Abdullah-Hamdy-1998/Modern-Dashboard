@@ -502,6 +502,40 @@ ul {
 
 /* End Latest Post Widget */
 
+/* Start Social Media Stats Widget */
+
+.social-media-stats .stat-info {
+    padding-left: 70px;
+}
+
+.social-media-stats .stat-info i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+}
+
+.social-media-stats .stat-info .facebook {
+    background-color: #3b5998;
+}
+
+.social-media-stats .stat-info .twitter {
+    background-color: #1da1f2;
+}
+
+.social-media-stats .stat-info .instagram {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.social-media-stats .stat-info .linkedin {
+    background-color: #0077b5;
+}
+
+/* End Social Media Stats Widget */
+
 
 /* End Content */
 
