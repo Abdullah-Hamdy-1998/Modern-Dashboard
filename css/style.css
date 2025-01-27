@@ -518,36 +518,52 @@ ul {
     width: 56px;
 }
 
-.social-media-stats .stat-info .facebook, .social-media-stats .facebook~a {
+.social-media-stats .facebook>i, .social-media-stats .facebook>a {
     background-color: #3b5998;
 }
 
-.social-media-stats .stat-info .twitter, .social-media-stats .twitter~a {
+.social-media-stats .twitter>i, .social-media-stats .twitter>a {
     background-color: #1da1f2;
 }
 
-.social-media-stats .stat-info .instagram, .social-media-stats .instagram~a {
+.social-media-stats .instagram>i, .social-media-stats .instagram>a {
     background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 }
 
-.social-media-stats .stat-info .linkedin, .social-media-stats .linkedin~a {
+.social-media-stats .linkedin>i, .social-media-stats .linkedin>a {
     background-color: #0077b5;
 }
 
-.social-media-stats .stat-info .facebook+p {
+.social-media-stats .facebook>p {
     color: #3b5998;
 }
 
-.social-media-stats .stat-info .twitter+p {
+.social-media-stats .twitter>p {
     color: #1da1f2;
 }
 
-.social-media-stats .stat-info .instagram+p {
+.social-media-stats .instagram>p {
     color: #405de6;
 }
 
-.social-media-stats .stat-info .linkedin+p {
+.social-media-stats .linkedin>p {
     color: #0077b5;
+}
+
+.social-media-stats .facebook {
+    background-color: rgba(59, 88, 152, 0.2);
+}
+
+.social-media-stats .twitter {
+    background-color: rgba(29, 160, 242, 0.2);
+}
+
+.social-media-stats .instagram {
+    background-color: rgba(253, 29, 29, 0.2);
+}
+
+.social-media-stats .linkedin {
+    background-color: rgba(0, 118, 181, 0.2);
 }
 
 /* End Social Media Stats Widget */
