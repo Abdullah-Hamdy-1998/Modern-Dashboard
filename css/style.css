@@ -516,10 +516,15 @@ ul {
     justify-content: center;
     align-items: center;
     width: 56px;
+    transition: 0.3s;
+}
+
+.social-media-stats .stat-info:hover i {
+    transform: scale(1.1);
 }
 
 .social-media-stats .facebook>i, .social-media-stats .facebook>a {
-    background-color: #3b5998;
+    background-color: #1877f2;
 }
 
 .social-media-stats .twitter>i, .social-media-stats .twitter>a {
@@ -535,7 +540,7 @@ ul {
 }
 
 .social-media-stats .facebook>p {
-    color: #3b5998;
+    color: #1877f2;
 }
 
 .social-media-stats .twitter>p {
@@ -551,7 +556,7 @@ ul {
 }
 
 .social-media-stats .facebook {
-    background-color: rgba(59, 88, 152, 0.2);
+    background-color: rgba(24, 118, 242, 0.2);
 }
 
 .social-media-stats .twitter {
