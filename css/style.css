@@ -508,6 +508,17 @@ ul {
     padding-left: 70px;
 }
 
+@media (max-width: 767px) {
+    .social-media-stats .stat-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-media-stats .stat-info>p {
+        margin-bottom: 10px;
+    }
+}
+
 .social-media-stats .stat-info i {
     position: absolute;
     top: 0;
