@@ -518,19 +518,19 @@ ul {
     width: 56px;
 }
 
-.social-media-stats .stat-info .facebook {
+.social-media-stats .stat-info .facebook, .social-media-stats .facebook~a {
     background-color: #3b5998;
 }
 
-.social-media-stats .stat-info .twitter {
+.social-media-stats .stat-info .twitter, .social-media-stats .twitter~a {
     background-color: #1da1f2;
 }
 
-.social-media-stats .stat-info .instagram {
+.social-media-stats .stat-info .instagram, .social-media-stats .instagram~a {
     background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 }
 
-.social-media-stats .stat-info .linkedin {
+.social-media-stats .stat-info .linkedin, .social-media-stats .linkedin~a {
     background-color: #0077b5;
 }
 
