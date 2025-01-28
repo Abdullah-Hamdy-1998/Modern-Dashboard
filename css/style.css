@@ -679,6 +679,12 @@ ul {
     align-items: center;
 }
 
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .btn {
     padding: 4px 10px;
     border-radius: 6px;
