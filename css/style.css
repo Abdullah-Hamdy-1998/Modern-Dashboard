@@ -631,7 +631,7 @@ ul {
 /* End Projects table */
 
 /* Start Site Control */
-.site-control .close-message{
+.site-control .close-message {
     resize: none;
     min-height: 150px;
     border: 1px solid #ccc;
@@ -643,19 +643,30 @@ ul {
         align-items: flex-start;
     }
 }
+
 /* End Site Control */
 
 /* Start General Info */
 .general-info .email {
-   display: inline-flex;
-   width: calc(100% - 80px);
+    display: inline-flex;
+    width: calc(100% - 80px);
 }
+
 .general-info :disabled {
     cursor: no-drop;
     background-color: #f0f4f8;
     color: #bbb;
 }
+
 /* End General Info */
+
+/* Start Security Info */
+
+.security-info div:not(:last-of-type) {
+    border-bottom: 1px solid #eee;
+}
+
+/* End Security Info */
 
 
 /* End Content */
