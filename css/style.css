@@ -630,6 +630,14 @@ ul {
 
 /* End Projects table */
 
+/* Start Site Control */
+.site-contorl .close-message{
+    resize: none;
+    min-height: 150px;
+    border: 1px solid #ccc;
+}
+/* End Site Control */
+
 
 /* End Content */
 
