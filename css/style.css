@@ -645,6 +645,18 @@ ul {
 }
 /* End Site Control */
 
+/* Start General Info */
+.general-info .email {
+   display: inline-flex;
+   width: calc(100% - 80px);
+}
+.general-info :disabled {
+    cursor: no-drop;
+    background-color: #f0f4f8;
+    color: #bbb;
+}
+/* End General Info */
+
 
 /* End Content */
 
