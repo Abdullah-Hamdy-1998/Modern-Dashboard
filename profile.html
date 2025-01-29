@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashify</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&amp;display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/framework.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="p-relative text-center mt-0">Dashify</h3>
+            <ul>
+                <li>
+                    <a href="./index.html" class="d-flex align-items-center font-14 p-10 rad-6 color-black">
+                        <i class="fas fa-tachometer-alt fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./settings.html" class="d-flex align-items-center font-14 p-10 rad-6 color-black">
+                        <i class="fas fa-cog fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./profile.html" class="active d-flex align-items-center font-14 p-10 rad-6 color-black">
+                        <i class="fas fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./projects.html" class="d-flex align-items-center font-14 p-10 rad-6 color-black">
+                        <i class="fas fa-project-diagram fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./courses.html" class="d-flex align-items-center font-14 p-10 rad-6 color-black">
+                        <i class="fas fa-book fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./friends.html" class="d-flex align-items-center font-14 p-10 rad-6 color-black">
+                        <i class="fas fa-user-friends fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./files.html" class="d-flex align-items-center font-14 p-10 rad-6 color-black">
+                        <i class="fas fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./plans.html" class="d-flex align-items-center font-14 p-10 rad-6 color-black">
+                        <i class="fas fa-money-bill-wave fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full">
+            <!-- Start Header -->
+            <div class="header bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input class="p-10 rad-10 type=" search" placeholder="Search">
+                </div>
+                <div class="user d-flex align-items-center">
+                    <span class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-lg p-relative"></i>
+                    </span>
+                    <div class="user-info d-flex align-items-center">
+                        <div class="user-img">
+                            <img src="./images/user.png" alt="User">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Header -->
+            <h1 class="p-relative">Profile</h1>
+            <div class="overview bg-white m-20 p-20 rad-10">
+                <div class="d-flex">
+                    <div class="profile-info text-center p-20">
+                        <img class="rad-half mb-10" src="./images/user.png" alt="User">
+                        <h3 class="m-0">John Doe</h3>
+                        <P class="mt-10 color-grey">Level 15</P>
+                        <div class="level rad-6 bg-eee p-relative">
+                            <span style="width: 70%"></span>
+                        </div>
+                        <div class="rating mt-10 mb-10">
+                            <i class="fa-solid fa-star color-orange font-13"></i>
+                            <i class="fa-solid fa-star color-orange font-13"></i>
+                            <i class="fa-solid fa-star color-orange font-13"></i>
+                            <i class="fa-solid fa-star color-orange font-13"></i>
+                            <i class="fa-solid fa-star color-orange font-13"></i>
+                        </div>
+                        <p class="color-grey m-0 font-13">550 Rating</p>
+                    </div>
+                    <div class="profile-settings mt-20">
+                        Settings
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

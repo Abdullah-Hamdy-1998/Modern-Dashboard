@@ -803,7 +803,7 @@ ul {
 
 @media (max-width: 767px) {
     .backup-manager .servers {
-       flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 }
 
@@ -821,10 +821,22 @@ ul {
     color: var(--blue-color);
 }
 
-
-
-
 /* End Backup Manager */
+
+/* Start Profile Overview */
+.overview .profile-info img {
+    width: 140px;
+    height: 140px;
+}
+
+@media (min-width: 768px) {
+    .overview .profile-info{
+        border-right: 1px solid #eee;
+        flex-basis: 300px;
+    }
+}
+
+/* End Profile Overview */
 
 
 /* End Content */
