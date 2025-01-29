@@ -824,17 +824,33 @@ ul {
 /* End Backup Manager */
 
 /* Start Profile Overview */
-.overview .profile-info img {
-    width: 140px;
-    height: 140px;
-}
-
 @media (min-width: 768px) {
-    .overview .profile-info{
+    .overview .profile-info {
         border-right: 1px solid #eee;
         flex-basis: 300px;
     }
 }
+
+.overview .profile-info img {
+    width: 120px;
+    height: 120px;
+}
+
+.overview .profile-info .level {
+    background-color: #f6f6f6;
+    width: 70%;
+    height: 6px;
+    margin: auto;
+}
+
+.overview .profile-info .level span {
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    background-color: var(--blue-color);
+}
+
+
 
 /* End Profile Overview */
 
