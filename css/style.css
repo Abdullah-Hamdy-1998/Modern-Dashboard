@@ -748,6 +748,18 @@ ul {
 
 /* End Widgets Control */
 
+/* Start Backup Manager */
+
+.backup-manager input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: none;
+}
+
+
+/* End Backup Manager */
+
 
 /* End Content */
 
