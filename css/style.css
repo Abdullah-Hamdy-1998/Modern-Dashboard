@@ -893,6 +893,13 @@ ul {
 
 /* End Skills */
 
+/* Start Activities */
+.activities{
+    flex-grow: 2;
+}
+
+/* End Activities */
+
 
 /* End Content */
 
