@@ -850,6 +850,9 @@ ul {
     background-color: var(--blue-color);
 }
 
+.overview .info-box h4 {
+    font-weight: normal;
+}
 
 
 /* End Profile Overview */
