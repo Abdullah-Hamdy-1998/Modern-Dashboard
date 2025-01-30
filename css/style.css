@@ -871,6 +871,13 @@ ul {
 
 /* End Profile Overview */
 
+/* Start Skills */
+.other-data .skills {
+    flex-grow: 1;
+}
+
+/* End Skills */
+
 
 /* End Content */
 
