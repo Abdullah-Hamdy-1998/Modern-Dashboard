@@ -850,10 +850,18 @@ ul {
     background-color: var(--blue-color);
 }
 
+.overview .info-box .box:is(:not(:last-of-type)) {
+    border-bottom: 1px solid #eee;
+}
+
 .overview .info-box h4 {
     font-weight: normal;
 }
 
+.overview .info-box .box>div {
+    min-width: 250px;
+    padding: 10px 0 0;
+}
 
 /* End Profile Overview */
 
