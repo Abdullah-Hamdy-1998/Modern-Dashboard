@@ -850,6 +850,12 @@ ul {
     background-color: var(--blue-color);
 }
 
+@media (max-width: 767px) {
+    .overview>div {
+        flex-direction: column;
+    }
+}
+
 .overview .info-box .box:is(:not(:last-of-type)) {
     border-bottom: 1px solid #eee;
 }
