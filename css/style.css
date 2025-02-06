@@ -908,12 +908,9 @@ ul {
     flex-grow: 2;
 }
 
-.activities .activity {
-    padding: 0 0 20px;
-}
-
 .activities .activity:not(:last-of-type) {
     border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
     margin-bottom: 20px;
 }
 
@@ -924,8 +921,7 @@ ul {
 }
 
 .activities .date>span {
-    margin-left: auto;
-    width: fit-content;
+    text-align: right;
 }
 
 @media (max-width: 767px) {
@@ -939,8 +935,9 @@ ul {
         margin-bottom: 15px;
     }
 
-    .activities .date {
-        margin-top: 15px;
+    .activities .date>span {
+        margin-top: 10px;
+        text-align: center;
     }
 }
 
@@ -948,6 +945,8 @@ ul {
 
 
 /* End Content */
+
+
 
 
 /* Components */
