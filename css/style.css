@@ -879,19 +879,6 @@ ul {
     padding: 10px 0 0;
 }
 
-/* Add margin-bottom to profile cards */
-.overview {
-    margin-bottom: 20px;
-}
-
-.activities {
-    margin-bottom: 20px;
-}
-
-.skills {
-    margin-bottom: 20px;
-}
-
 /* End Profile Overview */
 
 /* Start Skills */
@@ -1053,5 +1040,72 @@ ul {
         margin-right: 10px;
         gap: 10px;
     }
+}
+
+.projects-page .project .date {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.projects-page .project .team {
+    position: relative;
+    min-height: 80px;
+}
+
+.projects-page .project .team a {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.projects-page .project .team a:nth-child(2) {
+    left: 25px;
+}
+
+.projects-page .project .team a:nth-child(3) {
+    left: 50px;
+}
+
+.projects-page .project .team img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.projects-page .project .do {
+    justify-content: flex-end;
+    border-top: 1px solid #eee;
+    gap: 5px;
+}
+
+.projects-page .project .do span {
+    padding: 3px 8px;
+}
+
+.projects-page .project .info {
+    border-top: 1px solid #eee;
+}
+
+.projects-page .project .prog {
+    height: 8px;
+    width: 260px;
+    position: relative;
+    border-radius: 6px;
+}
+
+@media (max-width: 767px) {
+    .projects-page .project .prog {
+        width: 150px;
+    }
+}
+
+.projects-page .project .prog span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 6px;
 }
 /* End Projects Page */
