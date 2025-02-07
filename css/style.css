@@ -1072,6 +1072,13 @@ ul {
     height: 40px;
     border-radius: 50%;
     border: 2px solid white;
+    transition: z-index 0s;
+    position: relative;
+    z-index: 1;
+}
+
+.projects-page .project .team img:hover {
+    z-index: 100;
 }
 
 .projects-page .project .do {
