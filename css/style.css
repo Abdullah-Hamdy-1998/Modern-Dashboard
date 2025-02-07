@@ -1087,6 +1087,17 @@ ul {
     gap: 5px;
 }
 
+@media (max-width: 767px) {
+    .projects-page .project .do {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .projects-page .project .do span {
+        margin-bottom: 5px;
+    }
+}
+
 .projects-page .project .do span {
     padding: 3px 8px;
 }
