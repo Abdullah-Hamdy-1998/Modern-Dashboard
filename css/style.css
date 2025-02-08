@@ -1258,18 +1258,24 @@ ul {
     margin-top: 15px;
 }
 
+.friends-page .friend .info .btns {
+    display: flex;
+    gap: 5px;
+}
+
 .friends-page .friend .info a {
-    margin-left: 10px;
+    padding: 4px 10px;
 }
 
 @media (max-width: 767px) {
     .friends-page .friend .info {
         flex-direction: column;
         gap: 10px;
+        text-align: center;
     }
     
-    .friends-page .friend .info a {
-        margin-left: 0;
+    .friends-page .friend .info .btns {
+        justify-content: center;
     }
 }
 /* End Friends Page */
