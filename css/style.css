@@ -1409,4 +1409,17 @@ ul {
     top: 0;
     font-size: 25px;
 }
+
+.plans-page .plan ul {
+    padding: 20px;
+}
+
+.plans-page .plan ul li {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    border-bottom: 1px solid #eee;
+}
+
 /* End Plans Page */
