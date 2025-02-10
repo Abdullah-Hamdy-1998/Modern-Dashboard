@@ -41,23 +41,6 @@ Dashify is a modern, responsive admin dashboard built with pure HTML and CSS. It
 - Font Awesome Icons
 - Google Fonts
 
-## Project Structure
-
-dashify/
-├── css/
-│ ├── framework.css
-│ ├── style.css
-│ └── all.min.css
-├── images/
-├── index.html
-├── settings.html
-├── profile.html
-├── projects.html
-├── courses.html
-├── friends.html
-├── files.html
-└── plans.html
-
 ## Key Features Breakdown
 
 ### Custom Framework
@@ -77,16 +60,6 @@ dashify/
 - File management
 - Subscription plans
 
-### Color Scheme
-:root {
---blue-color: #0075ff;
---blue-alt-color: #0d69d5;
---orange-color: #f59e0b;
---green-color: #22c55e;
---red-color: #f44336;
---grey-color: #888;
-}
-
 ## Browser Support
 - Chrome (latest)
 - Firefox (latest)
@@ -99,14 +72,8 @@ dashify/
 2. Open `index.html` in your browser
 3. Navigate through different pages using the sidebar
 
-## Contributing
-Feel free to fork this project and submit pull requests for any improvements.
-
 ## License
 This project is open source and available under the MIT License.
-
-## Author
-Abdullah Hamdy
 
 ## Acknowledgments
 - Font Awesome for icons
