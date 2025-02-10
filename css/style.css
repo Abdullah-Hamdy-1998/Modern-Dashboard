@@ -1422,4 +1422,13 @@ ul {
     border-bottom: 1px solid #eee;
 }
 
+.plans-page .plan ul li .fa-check {
+    color: var(--green-color);
+    margin-right: 10px;
+}
+
+.plans-page .plan ul li .fa-xmark {
+    color: var(--red-color);
+    margin-right: 10px;
+}
 /* End Plans Page */
