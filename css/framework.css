@@ -493,6 +493,10 @@
     border: 1px solid #eee;
 }
 
+.border-top-eee {
+    border-top: 1px solid #eee;
+}
+
 /* Border Radius */
 
 .rad-6 {
