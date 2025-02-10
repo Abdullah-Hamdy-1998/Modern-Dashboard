@@ -537,6 +537,10 @@
     color: var(--green-color);
 }
 
+.color-red {
+    color: var(--red-color);
+}
+
 .bg-eee {
     background-color: #eee;
 }
