@@ -1395,4 +1395,11 @@ ul {
 .plans-page .plan.orange .top {
     outline-color: var(--orange-color);
 }
+
+.plans-page .plan .price {
+    position: relative;
+    font-size: 40px;
+    width: fit-content;
+    margin: auto;
+}
 /* End Plans Page */
