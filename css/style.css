@@ -1358,4 +1358,8 @@ ul {
     transition: 0.3s;
 }
 
+.files-content .file:hover img {
+    transform: rotate(5deg);
+}
+
 /* End Files Page */
