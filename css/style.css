@@ -456,6 +456,7 @@ ul {
 
 .project-progress .progress-container li::before {
     content: "";
+    flex-shrink: 0;
     width: 20px;
     height: 20px;
     display: block;
