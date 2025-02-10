@@ -1431,4 +1431,10 @@ ul {
     color: var(--red-color);
     margin-right: 10px;
 }
+
+.plans-page .plan ul li .help {
+    color: var(--grey-color);
+    margin-left: auto;
+    cursor: pointer;
+}
 /* End Plans Page */
