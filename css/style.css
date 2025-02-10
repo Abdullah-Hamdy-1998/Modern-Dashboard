@@ -1332,6 +1332,10 @@ ul {
     }
 }
 
+.files-page .files-stats {
+    min-width: 260px;
+}
+
 .files-stats h2 {
     font-size: 22px;
     font-weight: normal;
