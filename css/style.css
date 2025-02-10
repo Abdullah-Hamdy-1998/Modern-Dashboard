@@ -1189,6 +1189,7 @@ ul {
     font-size: 16px;
     margin-bottom: 10px;
 }
+
 /* End Courses Page */
 
 /* Start Friends Page */
@@ -1243,7 +1244,7 @@ ul {
     margin-right: 5px;
 }
 
-.friends-page .friend .icons-box > div {
+.friends-page .friend .icons-box>div {
     min-width: 100px;
 }
 
@@ -1273,11 +1274,12 @@ ul {
         gap: 10px;
         text-align: center;
     }
-    
+
     .friends-page .friend .info .btns {
         justify-content: center;
     }
 }
+
 /* End Friends Page */
 
 /* Start Files Page */
@@ -1339,6 +1341,13 @@ ul {
 
 .files-stats h2 {
     font-size: 22px;
+}
+
+
+.files-content .file img {
+    width: 64px;
+    height: 64px;
+    transition: 0.3s;
 }
 
 .bg-red-light {
