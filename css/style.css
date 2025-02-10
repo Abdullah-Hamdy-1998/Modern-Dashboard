@@ -1402,4 +1402,11 @@ ul {
     width: fit-content;
     margin: auto;
 }
+
+.plans-page .plan .price span {
+    position: absolute;
+    left: -20px;
+    top: 0;
+    font-size: 25px;
+}
 /* End Plans Page */
