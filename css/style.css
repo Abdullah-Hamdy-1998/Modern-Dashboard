@@ -1441,4 +1441,20 @@ ul {
 .plans-page .plan a {
     margin: 0 auto 20px;
 }
+
+.plans-page .plan .top {
+    border: 3px solid white;
+}
+
+.plans-page .plan.green .top {
+    outline: 3px solid var(--green-color);
+}
+
+.plans-page .plan.blue .top {
+    outline: 3px solid var(--blue-color);
+}
+
+.plans-page .plan.orange .top {
+    outline: 3px solid var(--orange-color);
+}
 /* End Plans Page */
