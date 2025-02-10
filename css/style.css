@@ -1437,4 +1437,8 @@ ul {
     margin-left: auto;
     cursor: pointer;
 }
+
+.plans-page .plan a {
+    margin: 0 auto 20px;
+}
 /* End Plans Page */
